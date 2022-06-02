@@ -33,3 +33,19 @@ body {
 .two {
     margin-right: 120px;
 }
+
+.picBig {
+    width: 1440px;
+    text-align: center;
+    background-color: rgb(216, 214, 214);
+    box-sizing: border-box;
+    padding: 20px;
+}
+.sand {
+    width: 100%;
+} 
+
+.textAbout {
+    width: 1440px;
+    padding: 20px 20px;    
+}
