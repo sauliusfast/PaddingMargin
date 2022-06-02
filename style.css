@@ -1,0 +1,35 @@
+/* ---------------Styles for all------------ */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+/* --------------------------------Header styles---------------------- */
+.logo {
+    width: 1440px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(216, 214, 214);
+    padding: 20px 0;
+}
+
+.logoPic {
+    width: 200px;
+}
+
+.mainMenu {
+    width: 1440px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+} 
+
+.one,
+.two {
+    margin-right: 120px;
+}
