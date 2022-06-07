@@ -1,51 +1,58 @@
 /* ---------------Styles for all------------ */
 
-* {
+/* * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     width: 1440px;
     margin: 0 auto;
-}
+} */
 /* --------------------------------Header styles---------------------- */
-.logo {
-    width: 1440px;
-    height: 50px;
+header {
     text-align: center;
-    background-color: rgb(216, 214, 214);
-    padding: 20px 0;
 }
 
-.logoPic {
+.logo img {
     width: 200px;
 }
 
-.mainMenu {
-    width: 1440px;
-    height: 50px;
-    text-align: center;
+nav {
     background-color: green;
-} 
-
-.one,
-.two {
-    margin-right: 120px;
+    padding: 10px 0;
 }
 
-.picBig {
-    width: 1440px;
-    text-align: center;
-    background-color: rgb(216, 214, 214);
-    box-sizing: border-box;
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* --------------------------------MAIN styles---------------------- */
+section.grey {
     padding: 20px;
+    background-color: #eee;
 }
-.sand {
-    width: 100%;
-} 
 
-.textAbout {
-    width: 1440px;
-    padding: 20px 20px;    
+section img {
+    width: 100%;
 }
+
+h2 {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+}
+
+section.green {
+    padding: 20px;
+    background-color: rgb(121, 170, 121);
+}
+
+.green h2 {
+    margin-top: 20px;
+}
+
